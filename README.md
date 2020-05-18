@@ -18,3 +18,11 @@ Funkcija pakeičia vektoriaus dydį (kiek vektorius laiko elementų).
 
 - myvector vs. std::vector
 Vektorių sparta lyginama pagal užduotyje pateikto kodo įvykdymo laiką.
+
+  |myvector|std::vector|elementai |
+  |--------|-----------|----------|
+  |   0 s        |   0 s|10 000     |
+  |   0.001997 s |   0.000994 s| 100 000   |
+  |   0.010969 s |   0.016955 s| 1 000 000  |
+  |   0.102732 s | 0.168549 s | 10 000 000|
+  |   1.25054  s | 1.61451 s|100 000 000 |
